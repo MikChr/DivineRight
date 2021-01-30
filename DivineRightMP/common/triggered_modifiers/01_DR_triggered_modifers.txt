@@ -1,0 +1,36 @@
+###########################################
+# League War - WE buff
+###########################################
+league_war_exhausiton_buff = {
+	potential = {
+		hre_leagues_enabled = yes
+	}
+
+	trigger = {
+		is_in_league_war = yes
+	}
+
+	war_exhaustion = -0.05	
+}
+
+###########################################
+# League War - Weak Protestant Leader Buff
+###########################################
+
+league_war_prot_leader_buff = {
+	potential = {
+		hre_leagues_enabled = yes
+		is_league_leader = yes
+	}
+
+	trigger = {
+		is_in_league_war = yes
+		NOT = {  religion = catholic }
+		is_great_power = no
+	}
+	
+	land_maintenance_modifier = -0.10
+	land_morale = 0.10
+	reinforce_speed = 0.10
+	manpower_recovery_speed = 0.30
+}

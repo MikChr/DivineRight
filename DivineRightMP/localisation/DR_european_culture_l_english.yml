@@ -1,0 +1,5 @@
+﻿l_english:
+ # Splitting of German culture
+ north_germanic:0 "North German"
+ south_germanic:0 "South German"
+ lowlander:0 "Lowlander"
