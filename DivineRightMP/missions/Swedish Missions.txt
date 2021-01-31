@@ -6,12 +6,12 @@ swe_ind = {
 	
 	potential = {
 		OR = { 
-      tag = SWE
-      AND = {
-        tag = SCA
-        was_tag = SWE
-      }
-    }
+                                                            tag = SWE
+                                                            AND = {
+                                                                                tag = SCA
+                                                                                was_tag = SWE
+                                                            }
+                                        }
 	}
 	has_country_shield = yes
 	
@@ -62,7 +62,7 @@ swe_ind = {
 			owns_core_province = 1
 		}
 		effect = {
-      add_legitimacy = 10
+                                                            add_legitimacy = 10
 			laponia_area = {
 				limit = {
 					NOT = { is_core = ROOT }
@@ -79,7 +79,7 @@ swe_ind = {
 			}
 		}
 	}
-  
+                    
 swe_sca = {
 
 	slot = 2
@@ -88,16 +88,16 @@ swe_sca = {
 	
 	potential = {
 		OR = { 
-      tag = SWE
-      AND = {
-        tag = SCA
-        was_tag = SWE
-      }
-    }
+                                                            tag = SWE
+                                                            AND = {
+                                                                                tag = SCA
+                                                                                was_tag = SWE
+                                                            }
+                                        }
 	}
-  
+                    
 	has_country_shield = yes
-  
+                    
 	swe_scan_got = {
 		icon = mission_seize_north_sea_trade
 		required_missions = { swe_independ }
@@ -257,12 +257,12 @@ swe_north = {
 	
 	potential = {
 		OR = { 
-      tag = SWE
-      AND = {
-        tag = SCA
-        was_tag = SWE
-      }
-    }
+                                                            tag = SWE
+                                                            AND = {
+                                                                                tag = SCA
+                                                                                was_tag = SWE
+                                                            }
+                                        }
 	}
 	has_country_shield = yes
 	
@@ -385,15 +385,15 @@ swe_army = {
 	
 	potential = {
 		OR = { 
-      tag = SWE
-      AND = {
-        tag = SCA
-        was_tag = SWE
-      }
-    }
+                                                            tag = SWE
+                                                            AND = {
+                                                                                tag = SCA
+                                                                                was_tag = SWE
+                                                            }
+                                        }
 	}
 	has_country_shield = yes
-  
+                    
 	swe_armyprof = {
 		icon = professional_army
 		required_missions = { swe_independ }
@@ -405,22 +405,22 @@ swe_army = {
 					has_dlc = "Cradle of Civilization"
 				}
 				OR = {
-          army_professionalism = 0.50
-			    MIL = 5
-        }
-      }
+                                                                                                    army_professionalism = 0.50
+			                                        MIL = 5
+                                                                                }
+                                                            }
 			else = {
 				OR = {
-          army_tradition = 70
-			    MIL = 5
-         }
-      }
+                                                                                                    army_tradition = 70
+			                                        MIL = 5
+                                                                                 }
+                                                            }
 		}
 		effect = {
 			country_event = { id = flavor_swe.3228 }
 		}
 	}
-  
+                    
 	swe_lion = {
 		icon = mission_rb_control_state_religion
 		required_missions = { swe_army }
@@ -459,12 +459,12 @@ swe_central = {
 	
 	potential = {
 		OR = { 
-      tag = SWE
-      AND = {
-        tag = SCA
-        was_tag = SWE
-      }
-    }
+                                                            tag = SWE
+                                                            AND = {
+                                                                                tag = SCA
+                                                                                was_tag = SWE
+                                                            }
+                                        }
 	}
 	has_country_shield = yes
 	
@@ -474,53 +474,53 @@ swe_central = {
 		position = 3
 
 		trigger = {
-      crown_land_share = 70
-      NOT = { average_home_autonomy = 0.1 }
-      NOT = { average_unrest = 0.1 }
-      stability = 2
+                                                            crown_land_share = 70
+                                                            NOT = { average_home_autonomy = 0.1 }
+                                                            NOT = { average_unrest = 0.1 }
+                                                            stability = 2
 		}
 		effect = {
-      if = { 
-        NOT = { has_country_modifier = vasa_centralization_reforms }
-        country_event = { id = flavor_swe.1 }
-      }
-      else = {
-       country_event = { id = flavor_swe.3243 }
-      }
-      if = { 
-        OR = {
-          current_age = age_of_absolutism
-          current_age = age_of_revolutions
-        }
-        add_absolutism = 5
-      }
-      else = {
-       add_adm_power = 50
-      }
-      1 = { add_base_tax = 2 }
-	  }
-  }
+                                                            if = { 
+                                                                                NOT = { has_country_modifier = vasa_centralization_reforms }
+                                                                                country_event = { id = flavor_swe.1 }
+                                                            }
+                                                            else = {
+                                                             country_event = { id = flavor_swe.3243 }
+                                                            }
+                                                            if = { 
+                                                                                OR = {
+                                                                                                    current_age = age_of_absolutism
+                                                                                                    current_age = age_of_revolutions
+                                                                                }
+                                                                                add_absolutism = 5
+                                                            }
+                                                            else = {
+                                                             add_adm_power = 50
+                                                            }
+                                                            1 = { add_base_tax = 2 }
+	                    }
+                    }
 	swe_absolute = {
 		icon = letat_cest_moi
 		required_missions = { swe_independ }
 		position = 4
 
 		trigger = {
-      crown_land_share = 80
-      OR = {
-        current_age = age_of_absolutism
-        current_age = age_of_revolutions
-      }
+                                                            crown_land_share = 80
+                                                            OR = {
+                                                                                current_age = age_of_absolutism
+                                                                                current_age = age_of_revolutions
+                                                            }
 		}
 		effect = {
-      if = { 
-        NOT = { has_country_modifier = the_absolutism }
-        country_event = { id = flavor_swe.3232 }
-      }
-      else = {
-		    change_mil = 1
-        add_stability = 2
-      }
+                                                            if = { 
+                                                                                NOT = { has_country_modifier = the_absolutism }
+                                                                                country_event = { id = flavor_swe.3232 }
+                                                            }
+                                                            else = {
+		                                        change_mil = 1
+                                                                                add_stability = 2
+                                                            }
 		}
 	}
 	swe_rev = {
