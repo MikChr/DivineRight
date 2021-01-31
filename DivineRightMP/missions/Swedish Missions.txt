@@ -79,6 +79,7 @@ swe_ind = {
 			}
 		}
 	}
+}
 	
 swe_sca = {
 
