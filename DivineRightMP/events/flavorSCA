@@ -78,3 +78,42 @@ country_event = {
 		
 	}
 }
+
+country_event = {
+	id = flavor_sca.3
+	title = "flavor_sca.3t"
+	desc = "flavor_sca.3d"
+	picture = COURT_eventPicture
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {		#Norwegian (Dip)
+		name = "flavor_sca.3a"
+		define_ruler = {
+			dynasty = historic_dynasty
+			culture = norwegian
+			dip = 1
+			random_gender = yes
+		}
+	}
+	option = {		#Danish (Adm)
+		name = "flavor_sca.3b"
+		define_ruler = {
+			dynasty = historic_dynasty
+			culture = danish
+			adm = 1
+			random_gender = yes
+		}
+	}
+	option = {		#Swedish (Mil)
+		name = "flavor_sca.3c"
+		define_ruler = {
+			dynasty = historic_dynasty
+			culture = swedish
+			mil = 1
+			random_gender = yes
+		}
+	}
+}
