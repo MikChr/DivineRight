@@ -481,21 +481,25 @@ swe_central = {
 		}
 		effect = {
 			if = { 
-				NOT = { has_country_modifier = vasa_centralization_reforms }
+				limit = {
+					NOT = { has_country_modifier = vasa_centralization_reforms }
+				}
 				country_event = { id = flavor_swe.1 }
 			}
 			else = {
-			 country_event = { id = flavor_swe.3243 }
+				country_event = { id = flavor_swe.3243 }
 			}
 			if = { 
-				OR = {
-					current_age = age_of_absolutism
-					current_age = age_of_revolutions
+				limit = {
+					OR = {
+						current_age = age_of_absolutism
+						current_age = age_of_revolutions
+					}
 				}
 				add_absolutism = 5
 			}
 			else = {
-			 add_adm_power = 50
+				add_adm_power = 50
 			}
 			1 = { add_base_tax = 2 }
 		}
@@ -514,7 +518,9 @@ swe_central = {
 		}
 		effect = {
 			if = { 
-				NOT = { has_country_modifier = the_absolutism }
+				limit = {
+					NOT = { has_country_modifier = the_absolutism }
+				}
 				country_event = { id = flavor_swe.3232 }
 			}
 			else = {
