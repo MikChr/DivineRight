@@ -474,10 +474,35 @@ swe_central = {
 		position = 3
 
 		trigger = {
-			crown_land_share = 70
+			crown_land_share = 40
+			if = {
+				limit = {
+					has_estate = estate_nobles
+				}
+				estate_loyalty = {
+					estate = estate_nobles
+					loyalty = 60
+				}
+			}
+			if = {
+				limit = {
+					has_estate = estate_burghers
+				}
+				estate_loyalty = {
+					estate = estate_burghers
+					loyalty = 60
+				}
+			}
+			if = {
+				limit = {
+					has_estate = estate_church
+				}
+				estate_loyalty = {
+					estate = estate_church
+					loyalty = 60
+				}
+			}
 			NOT = { average_home_autonomy = 0.1 }
-			NOT = { average_unrest = 0.1 }
-			stability = 2
 		}
 		effect = {
 			if = { 
