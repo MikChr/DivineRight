@@ -1,3 +1,6 @@
+namespace = flavor_sca
+normal_or_historical_nations = yes
+
 #A Scandinavian Capital
 country_event = {
 	id = flavor_sca.1
