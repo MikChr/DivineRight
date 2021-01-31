@@ -869,6 +869,7 @@ on_death_election = {
 		elections.721		# Dutch Republic
 		elections.800	# Lottery election
 		flavor_tus.16 #Savonarola Leaves This World
+		flavor_sca.3
 	}
 }
 
