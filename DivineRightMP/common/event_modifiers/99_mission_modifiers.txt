@@ -2,18 +2,34 @@ sca_new_world = {
 	range = 0.25
 	colonist_placement_chance = 0.15
 }
-
 sca_finland = {
 	local_development_cost = -0.15
 	local_build_cost = -0.15
 }
-
 swe_lion = {
 	discipline = 0.05
 	mil_tech_cost_modifier = -0.1
 }
-
 swe_fur_trade = {
 	trade_efficiency = 0.15
 	caravan_power = 0.5
+}
+sca_baltic_fleet = {
+	galley_power = 0.15
+	naval_maintenance_modifier = -0.15
+}
+sca_rule_britannia = {		#lesser version
+	prestige = 0.5
+	legitimacy = 0.5
+	republican_tradition = 0.3
+	global_ship_recruit_speed = -0.15
+	global_ship_cost = -0.15
+	naval_morale = 0.1
+	heavy_ship_power = 0.1
+}
+sca_balt = {
+	merchants = 1
+	light_ship_cost = -0.1
+	light_ship_power = 0.1
+	navy_tradition = 0.5
 }
