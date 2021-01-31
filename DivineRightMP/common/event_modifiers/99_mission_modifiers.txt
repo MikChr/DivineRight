@@ -1,0 +1,19 @@
+sca_new_world = {
+	range = 0.25		#Helps them get started a bit. Should still need dip 7 to reach Greenland so won't break colonial game
+	colonist_placement_chance = 0.15
+}
+
+sca_finland = {
+	local_development_cost = -0.15	#Stimulus for taking Greater Finland from Russians
+	local_build_cost = -0.15
+}
+
+swe_lion = {
+	discipline = 0.05		#Incentive to start messing with League Wars; taken from an existing event modifier
+	mil_tech_cost_modifier = -0.1
+}
+
+swe_fur_trade = {
+	trade_efficiency = 0.15
+	caravan_power = 0.5
+}
