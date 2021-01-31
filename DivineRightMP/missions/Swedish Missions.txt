@@ -524,7 +524,7 @@ swe_central = {
 		}
 	}
 	swe_rev = {
-		icon = professional_army
+		icon = french_revolution
 		required_missions = { swe_independ }
 		position = 5
 
