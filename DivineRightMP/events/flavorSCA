@@ -97,6 +97,14 @@ country_event = {
 			dip = 1
 			random_gender = yes
 		}
+		if = {
+			limit = { has_country_flag = norwegian_king }
+			add_legitimacy = -15
+		}
+		clr_country_flag = norwegian_king
+		clr_country_flag = danish_king
+		clr_country_flag = swedish_king
+		set_country_flag = norwegian_king
 	}
 	option = {		#Danish (Adm)
 		name = "flavor_sca.3b"
@@ -106,6 +114,14 @@ country_event = {
 			adm = 1
 			random_gender = yes
 		}
+		if = {
+			limit = { has_country_flag = danish_king }
+			add_legitimacy = -15
+		}
+		clr_country_flag = norwegian_king
+		clr_country_flag = danish_king
+		clr_country_flag = swedish_king
+		set_country_flag = danish_king
 	}
 	option = {		#Swedish (Mil)
 		name = "flavor_sca.3c"
@@ -115,5 +131,13 @@ country_event = {
 			mil = 1
 			random_gender = yes
 		}
+		if = {
+			limit = { has_country_flag = swedish_king }
+			add_legitimacy = -15
+		}
+		clr_country_flag = norwegian_king
+		clr_country_flag = danish_king
+		clr_country_flag = swedish_king
+		set_country_flag = swedish_king
 	}
 }
