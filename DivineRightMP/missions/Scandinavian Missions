@@ -9,82 +9,82 @@ sca_central = {
 	}
 	has_country_shield = yes
 	
-  sca_stabilize = {
+	sca_stabilize = {
 		icon = balance_the_estates
 		required_missions = { }
 		position = 3
 
-  	trigger = {
+		trigger = {
 			NOT = { average_home_autonomy = 0.1 }
 			NOT = { average_unrest = 0.1 }
 			stability = 1
-      legitimacy = 95
-      OR = {
-      
-      if = {
-        limit = { primary_culture = danish }
-        AND = {
-          accepted_culture = norwegian
-          accepted_culture = swedish
-        }
-      }
-      else_if = {
-        limit = { primary_culture = norwegian }
-        AND = {
-          accepted_culture = danish
-          accepted_culture = swedish
-        }
-      }
-      else_if = {
-        limit = { primary_culture = swedish }
-        AND = {
-          accepted_culture = norwegian
-          accepted_culture = danish
-        }
-      }
-      else = {
-        AND = {
-          accepted_culture = norwegian
-          accepted_culture = danish
-          accepted_culture = swedish
-        }
-      }
+			legitimacy = 95
+			OR = {
+			
+			if = {
+				limit = { primary_culture = danish }
+				AND = {
+					accepted_culture = norwegian
+					accepted_culture = swedish
+				}
+			}
+			else_if = {
+				limit = { primary_culture = norwegian }
+				AND = {
+					accepted_culture = danish
+					accepted_culture = swedish
+				}
+			}
+			else_if = {
+				limit = { primary_culture = swedish }
+				AND = {
+					accepted_culture = norwegian
+					accepted_culture = danish
+				}
+			}
+			else = {
+				AND = {
+					accepted_culture = norwegian
+					accepted_culture = danish
+					accepted_culture = swedish
+				}
+			}
 		}
 		effect = {
-      add_reform_progress_medium_effect = yes
-      add_prestige = 10
-    }
+			add_reform_progress_medium_effect = yes
+			add_prestige = 10
+		}
 	}
-  
-  sca_capital = {
+	
+	sca_capital = {
 		icon = promote_urbanization
 		required_missions = { sca_stabilize }
 		position = 4
 
-  	trigger = {
-    	stability = 3
+		trigger = {
+			stability = 3
 			4163 = {
 				owned_by = ROOT
 				controlled_by = ROOT
 			}
 		}
 		effect = {
-      add_prestige = 10
-      country_events = { id = flavor_sca.1 }
-    }
+			add_prestige = 10
+			country_events = { id = flavor_sca.1 }
+		}
 	}
-  
-  sca_high_kingdom = {
+	
+	sca_high_kingdom = {
 		icon = spread_the_von_wettins
 		required_missions = { sca_capital }
 		position = 5
 
-  	trigger = {
-    	stability = 3
-      legitimacy = 95
+		trigger = {
+			stability = 3
+			legitimacy = 95
 			prestige = 70
 		}
 		effect = {
-      country_events = { id = flavor_sca.2 }
-    }
+			country_events = { id = flavor_sca.2 }
+		}
 	}
