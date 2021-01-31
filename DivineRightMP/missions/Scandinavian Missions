@@ -19,8 +19,6 @@ sca_central = {
 			NOT = { average_unrest = 0.1 }
 			stability = 1
 			legitimacy = 95
-			OR = {
-			
 			if = {
 				limit = { primary_culture = danish }
 				AND = {
