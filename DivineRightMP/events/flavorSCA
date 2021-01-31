@@ -52,3 +52,26 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = flavor_sca.2
+	title = "flavor_sca.2t"
+	desc = "flavor_sca.2d"
+	picture = COURT_eventPicture
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {		#High Kingdom
+		name = "flavor_sca.2a"
+		ai_chance = { factor = 90 }
+		add_government_reform = scandinavian_monarchy_reform
+	}
+	option = {		#Keep it as it is
+		name = "flavor_sca.2b"
+		ai_chance = { factor = 10 }
+		add_stability_or_adm_power = yes
+		
+	}
+}
