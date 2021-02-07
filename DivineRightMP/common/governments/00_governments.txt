@@ -1,4 +1,5 @@
-#add scandinavian_monarchy_reform to tier 1 monarchy, and to list of reforms incompatible with general estates
+#DR: Added scandinavian_monarchy_reform to tier 1 monarchy
+#DR: Added above to list of reforms incompatible with states general (search "works with few others" for the codeblock it was added to)
 
 monarchy = {
 	reform_levels = {
@@ -164,6 +165,7 @@ monarchy = {
 	#States General works with few others
 	exclusive_reforms = {
 		mamluk_government
+		scandinavian_monarchy_reform
 		feudal_theocracy
 		states_general_reform
 		mughal_government
@@ -384,11 +386,6 @@ republic = {
 		feuillant_reform
 		military_electorate_reform
 	}
-	exclusive_reforms = {
-		scandinavian_monarchy_reform
-		states_general_reform
-	}
-	
 }
 
 tribal = {
