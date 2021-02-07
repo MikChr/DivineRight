@@ -1,4 +1,4 @@
-#Elective monarchy for SCA. Uses the Mamluk government form (renamed to Cultural Elective)
+#DR: Elective monarchy for SCA. Uses the Mamluk government form (renamed to Cultural Elective)
 
 scandinavian_monarchy_reform = {
 	icon = "commander_king_reform"
