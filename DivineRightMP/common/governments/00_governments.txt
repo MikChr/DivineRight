@@ -1,5 +1,5 @@
 #DR: Added scandinavian_monarchy_reform to tier 1 monarchy
-#DR: Added above to list of reforms incompatible with states general (search "works with few others" for the codeblock it was added to)
+#DR: Added above to list of reforms incompatible with states general (search "#States General works with few others" for the modified codeblock)
 
 monarchy = {
 	reform_levels = {
