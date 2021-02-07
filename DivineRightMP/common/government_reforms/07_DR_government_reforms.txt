@@ -8,16 +8,10 @@ scandinavian_monarchy_reform = {
 	nation_designer_cost = 0
 	
 	potential = {
-		AND = {
-			tag = SCA	#specific to the title
-			OR = {		
-				has_reform = scandinavian_monarchy_reform
-				have_had_reform = scandinavian_monarchy_reform
-			}
-		}
+		tag = SCA	#specific to the title, lost if tag switching away
 	}
 	modifiers = {			#Elective = less royal power, but a more vigorous administration
-		max_absolutism = -20	
+		max_absolutism = -10	
 		free_policy = 1
 		nobles_influence_modifier = 0.05
 		burghers_influence_modifier = 0.05
