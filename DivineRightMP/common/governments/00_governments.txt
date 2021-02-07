@@ -1,3 +1,4 @@
+#add scandinavian_monarchy_reform to tier 1 monarchy, and to list of reforms incompatible with general estates
 
 monarchy = {
 	reform_levels = {
