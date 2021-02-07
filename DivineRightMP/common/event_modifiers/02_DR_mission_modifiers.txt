@@ -37,7 +37,7 @@ sca_rule_britannia = {		#Lesser version of the Irish/Scottish Rule Britannia bon
 }
 sca_balt = {
 	merchants = 1
-	naval_tradition = 1
+	navy_tradition = 1
 	ship_durability = 0.05
 }
 sca_united_capital = {
