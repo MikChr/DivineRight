@@ -1,4 +1,5 @@
 ﻿l_english:
+ #Loc for Scandinavian missions and related events and modifiers
  sca_carib.tooltip:0 "§Y[Root.GetName]§! or their subjects own at least 5 fully colonized provinces in the §YCaribbean§! region."
  sca_canada.tooltip:0 "§Y[Root.GetName]§! or their subjects own at least 10 fully colonized provinces in the §YCanada§! region."
  sca_america.tooltip:0 "§Y[Root.GetName]§! or their subjects own at least 10 fully colonized provinces in the §YEastern America§! colonial region."
