@@ -1,7 +1,7 @@
 #Elective monarchy for SCA. Uses the Mamluk government form (renamed to Cultural Elective)
 
 scandinavian_monarchy_reform = {
-	icon = "castle"
+	icon = "commander_king_reform"
 	allow_normal_conversion = yes
 	legacy_equivalent = elective_monarchy_legacy
 	valid_for_nation_designer = yes
