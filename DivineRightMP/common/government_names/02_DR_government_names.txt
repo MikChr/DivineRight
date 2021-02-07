@@ -1,7 +1,6 @@
-# For specific government types
-# Will pick the first valid one it finds in list
+#Scandinavian High Kingdom. Localized rank 3 name for flavour. Should never be rank 1 due to mission rewards, but included in case of HRE shenanigans
 
-gov_scandinavian_elective = {
+gov_scandinavian_elective_no_swe = {
 	rank = {
 		1 = ARCHDUCHY
 		2 = ELECTIVE_KINGDOM
@@ -11,28 +10,66 @@ gov_scandinavian_elective = {
 	ruler_male = {
 		1 = ARCHDUKE
 		2 = HIGH_KING
-		3 = KEISER
+		3 = KEJSER
 	}
 	
 	ruler_female = {
 		1 = ARCHDUCHESS
 		2 = HIGH_QUEEN
-		3 = KEISERINNE
+		3 = KEJSERINNE
 	}
 	
 	consort_male = {
 		1 = DUKE
 		2 = KING
-		3 = KEISER
+		3 = KEJSER
 	}
 
 	consort_female = {
 		1 = DUCHESS
 		2 = QUEEN
-		3 = KEISERINNE
+		3 = KEJSERINNE
 	}
 	
 	trigger = {
 		has_reform = scandinavian_monarchy_reform
+		primary_culture = danish
+	}
+}
+
+gov_scandinavian_elective_swe = {
+	rank = {
+		1 = ARCHDUCHY
+		2 = ELECTIVE_KINGDOM
+		3 = ELECTIVE_EMPIRE
+	}
+	
+	ruler_male = {
+		1 = ARCHDUKE
+		2 = HIGH_KING
+		3 = KEJSAR
+	}
+	
+	ruler_female = {
+		1 = ARCHDUCHESS
+		2 = HIGH_QUEEN
+		3 = KEJSARINNE
+	}
+	
+	consort_male = {
+		1 = DUKE
+		2 = KING
+		3 = KEJSAR
+	}
+
+	consort_female = {
+		1 = DUCHESS
+		2 = QUEEN
+		3 = KEJSARINNE
+	}
+	
+	trigger = {
+		has_reform = scandinavian_monarchy_reform
+		primary_culture = swedish
 	}
 }
