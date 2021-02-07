@@ -1,3 +1,5 @@
+#Elective monarchy for SCA. Uses the Mamluk government form (renamed to Cultural Elective)
+
 scandinavian_monarchy_reform = {
 	icon = "castle"
 	allow_normal_conversion = yes
@@ -7,15 +9,15 @@ scandinavian_monarchy_reform = {
 	
 	potential = {
 		AND = {
-			tag = SCA
-			OR = {
-				has_had_reform = scandinavian_monarchy_reform
+			tag = SCA	#specific to the title
+			OR = {		
+				has_reform = scandinavian_monarchy_reform
 				have_had_reform = scandinavian_monarchy_reform
 			}
 		}
 	}
-	modifiers = {
-		max_absolutism = -10
+	modifiers = {			#Elective = less royal power, but a more vigorous administration
+		max_absolutism = -20	
 		free_policy = 1
 		nobles_influence_modifier = 0.05
 		burghers_influence_modifier = 0.05
