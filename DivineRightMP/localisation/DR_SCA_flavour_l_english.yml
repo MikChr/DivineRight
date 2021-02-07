@@ -1,5 +1,4 @@
-﻿l_english:
- #Loc for Scandinavian missions and related events and modifiers
+l_english:
  sca_carib.tooltip:0 "§Y[Root.GetName]§! or their subjects own at least 5 fully colonized provinces in the §YCaribbean§! region."
  sca_canada.tooltip:0 "§Y[Root.GetName]§! or their subjects own at least 10 fully colonized provinces in the §YCanada§! region."
  sca_america.tooltip:0 "§Y[Root.GetName]§! or their subjects own at least 10 fully colonized provinces in the §YEastern America§! colonial region."
@@ -128,8 +127,5 @@
  HIGH_KING:0 "High King"
  ELECTIVE_KINGDOM:0 "Elective Kingdom"
  ELECTIVE_EMPIRE:0 "Elective Empire"
- unionists:0 "Unionists in Power"
- royalists:0 "Federalists in Power"
  mechanic_foreign_slave_rulers_yes:0 "Enables Cultural Ruler Election."
  mechanic_foreign_slave_rulers_no:0 "Disables Cultural Ruler Election."
- 
