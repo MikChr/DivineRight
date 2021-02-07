@@ -1,4 +1,4 @@
-#Scandinavian High Kingdom. Localized rank 3 name for flavour. Should never be rank 1 due to mission rewards, but included in case of HRE shenanigans
+#DR: Scandinavian High Kingdom. Localized rank 3 name for flavour. Should never be rank 1 due to mission rewards, but included in case of HRE shenanigans
 
 gov_scandinavian_elective_no_swe = {
 	rank = {
