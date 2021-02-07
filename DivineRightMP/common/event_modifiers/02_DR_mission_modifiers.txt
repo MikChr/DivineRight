@@ -35,7 +35,7 @@ sca_rule_britannia = {		#lesser version
 }
 sca_balt = {
 	merchants = 1
-	prestige = 1
+	naval_tradition = 1
 	ship_durability = 0.05
 }
 sca_united_capital = {
