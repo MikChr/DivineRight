@@ -869,14 +869,18 @@ on_death_election = {
 		elections.721		# Dutch Republic
 		elections.800	# Lottery election
 		flavor_tus.16 #Savonarola Leaves This World
-		flavor_sca.3
 	}
 }
 
 # country
 on_death_foreign_slave_ruler = {
-	events = {
-		mamluk_events.0 # Choose new ruler
+	if = {
+		limit = { has_reform = mamluk_government }
+		country_event = { id = mamluk_events.0 }
+	}
+	else_if = {
+		limit = { has_reform = scandinavian_monarchy_reform }
+		country_event = { id = flavor_sca.3 }
 	}
 }
 

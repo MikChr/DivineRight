@@ -6,9 +6,15 @@ sca_finland = {
 	local_development_cost = -0.15
 	local_build_cost = -0.15
 }
+swe_caroleans = {
+	movement_speed = 0.15
+	drill_gain_modifier = 0.25
+	drill_decay_modifier = -0.25
+}
 swe_lion = {
 	discipline = 0.05
-	mil_tech_cost_modifier = -0.1
+	army_tradition = 1
+	land_attrition = -0.15
 }
 swe_fur_trade = {
 	trade_efficiency = 0.15
@@ -29,9 +35,8 @@ sca_rule_britannia = {		#lesser version
 }
 sca_balt = {
 	merchants = 1
-	light_ship_cost = -0.1
-	light_ship_power = 0.1
-	navy_tradition = 0.5
+	prestige = 1
+	ship_durability = 0.05
 }
 sca_united_capital = {
 	prestige = 0.5

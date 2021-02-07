@@ -1,0 +1,38 @@
+# For specific government types
+# Will pick the first valid one it finds in list
+
+gov_scandinavian_elective = {
+	rank = {
+		1 = ARCHDUCHY
+		2 = ELECTIVE_KINGDOM
+		3 = ELECTIVE_EMPIRE
+	}
+	
+	ruler_male = {
+		1 = ARCHDUKE
+		2 = HIGH_KING
+		3 = KEISER
+	}
+	
+	ruler_female = {
+		1 = ARCHDUCHESS
+		2 = HIGH_QUEEN
+		3 = KEISERINNE
+	}
+	
+	consort_male = {
+		1 = DUKE
+		2 = KING
+		3 = KEISER
+	}
+
+	consort_female = {
+		1 = DUCHESS
+		2 = QUEEN
+		3 = KEISERINNE
+	}
+	
+	trigger = {
+		has_reform = scandinavian_monarchy_reform
+	}
+}

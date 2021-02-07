@@ -383,6 +383,11 @@ republic = {
 		feuillant_reform
 		military_electorate_reform
 	}
+	exclusive_reforms = {
+		scandinavian_monarchy_reform
+		states_general_reform
+	}
+	
 }
 
 tribal = {

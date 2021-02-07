@@ -1,31 +1,27 @@
 scandinavian_monarchy_reform = {
 	icon = "castle"
-	allow_normal_conversion = no
+	allow_normal_conversion = yes
 	legacy_equivalent = elective_monarchy_legacy
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 	
 	potential = {
-		OR = {
+		AND = {
 			tag = SCA
-			have_had_reform = scandinavian_monarchy_reform
+			OR = {
+				has_had_reform = scandinavian_monarchy_reform
+				have_had_reform = scandinavian_monarchy_reform
+			}
 		}
 	}
 	modifiers = {
+		max_absolutism = -10
+		free_policy = 1
 		nobles_influence_modifier = 0.05
 		burghers_influence_modifier = 0.05
-		clergy_influence_modifier = 0.05
-		max_absolutism = -30
-		free_policy = 1
+		church_influence_modifier = 0.05
 	}
 	
-	custom_attributes = {
-		heir = no
-		election_on_death = yes
-		has_term_election = no
-	}
-	
-	ai = {
-		factor = 0.5 #generic
-	}
+	heir = no
+	foreign_slave_rulers = yes
 }

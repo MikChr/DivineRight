@@ -1,0 +1,29 @@
+	### Third Rome Mission Icons ###
+
+spriteTypes = {
+
+
+	# Novgorod
+	
+	spriteType = {
+		name = "mission_gustavus"
+		texturefile = "gfx//interface//missions//DR_missions//mission_gustavus.dds"
+	}
+	spriteType = {
+		name = "mission_swe_nor"
+		texturefile = "gfx//interface//missions//DR_missions//mission_swe_nor.dds"
+	}
+	spriteType = {
+		name = "mission_swe_army"
+		texturefile = "gfx//interface//missions//DR_missions//mission_swe_army.dds"
+	}
+	spriteType = {
+		name = "mission_swe_scania"
+		texturefile = "gfx//interface//missions//DR_missions//mission_swe_scania.dds"
+	}
+	spriteType = {
+		name = "mission_swe_den"
+		texturefile = "gfx//interface//missions//DR_missions//mission_swe_den.dds"
+	}
+	
+}
