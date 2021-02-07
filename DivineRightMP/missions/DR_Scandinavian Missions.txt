@@ -1,3 +1,4 @@
+#Separate trees for SCA (post-unification consolidation), SWE, DEN and a common Baltic tree for all
 swe_ind = {
 
 	slot = 3
@@ -1250,15 +1251,6 @@ sca_atlantic_right = {
 		icon = indonesian_trade
 		required_missions = { }
 		position = 6
-
-		provinces_to_highlight = {
-			OR = {
-				area = northern_norway
-				area = eastern_norway
-				area = western_norway
-			}
-			NOT = { owned_by = ROOT }
-		}
 		
 		trigger = {
 			navy_size_percentage = 0.9
