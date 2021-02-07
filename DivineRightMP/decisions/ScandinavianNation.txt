@@ -1,3 +1,5 @@
+#DR: Scandinavia is formable at tech 10.
+
 country_decisions = {
 
 	scandinavian_nation = {
