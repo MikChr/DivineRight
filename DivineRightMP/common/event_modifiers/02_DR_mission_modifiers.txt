@@ -1,4 +1,4 @@
-#standard array of mission bonuses, based on existing bonuses.
+#standard array of mission bonuses, based primarily on existing mission bonuses.
 
 sca_new_world = {
 	range = 0.25
